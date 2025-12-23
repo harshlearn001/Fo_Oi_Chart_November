@@ -97,7 +97,6 @@ for csv_file in files:
 
         rows.append({
             "SYMBOL": sym,
-            "FUT_CURR_PRICE": CP1,
             "FUT_NEXT_PRICE": CP2,
             "ROLL_COST_PCT_M": roll_cost,
             "ROLL_OI_PCT_M": roll_oi
