@@ -17,3 +17,5 @@ Thumbs.db
 # Virtual env
 .env
 .venv
+# Generated outputs
+data/processed/**
