@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Data (keep raw private if needed)
+data/raw/*
+!data/raw/README.md
+
+# Logs
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Virtual env
+.env
+.venv

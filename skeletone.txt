@@ -1,0 +1,32 @@
+Fo_Oi_Chart_November/
+│
+├── data/
+│   ├── raw/
+│   │   ├── fo_daily/          # Raw NSE FO CSVs (foDDMMYYYY.csv)
+│   │   └── fo_latest/         # Latest month FO files
+│   │
+│   ├── processed/
+│   │   ├── daily/             # Daily rollover output
+│   │   ├── monthly/           # Monthly averages
+│   │   ├── six_month/         # 6M averages
+│   │   └── merged/            # Final merged datasets
+│   │
+│   └── reference/
+│       └── symbols.csv        # Optional: F&O universe
+│
+├── scripts/
+│   ├── 01_build_daily_rollover.py
+│   ├── 02_monthly_avg_rollover.py
+│   ├── 03_six_month_avg_rollover.py
+│   ├── 04_merge_month_6m.py
+│   └── 05_sanity_checks.py
+│
+├── charts/
+│   ├── oi_rollover/
+│   └── cost_rollover/
+│
+├── logs/
+│
+├── config.py
+├── requirements.txt
+└── README.md
