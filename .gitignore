@@ -1,21 +1,36 @@
+# =========================
 # Python
+# =========================
 __pycache__/
 *.pyc
 *.pyo
 
-# Data (keep raw private if needed)
-data/raw/*
-!data/raw/README.md
+# =========================
+# Virtual Environments
+# =========================
+.env
+.venv
 
+# =========================
 # Logs
+# =========================
 logs/
 
-# OS
+# =========================
+# OS Files
+# =========================
 .DS_Store
 Thumbs.db
 
-# Virtual env
-.env
-.venv
-# Generated outputs
-data/processed/**
+# =========================
+# Raw Data (keep README only)
+# =========================
+data/raw/*
+!data/raw/README.md
+
+# =========================
+# Generated / Processed Data
+# =========================
+data/processed/
+data/Sector/
+data/SE.txt
